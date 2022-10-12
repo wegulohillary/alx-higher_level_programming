@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """defines a class Square"""
 
+
 class Square:
     """Represents a square
     Attributes:
@@ -19,3 +20,4 @@ class Square:
             if size < 0:
                 raise ValueError("size must be >= 0")
             else:
+                self.__size = size
